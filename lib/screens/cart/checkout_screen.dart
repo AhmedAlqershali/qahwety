@@ -3,7 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:qahwety/screens/cart/delivery_info_screen.dart';
 import 'package:qahwety/screens/cart/schedule_order.dart';
-import 'package:qahwety/screens/cart/schedule_order_screen.dart';
 
 import 'package:toggle_switch/toggle_switch.dart';
 

@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:qahwety/screens/profile/my_wallet_screen.dart';
 import 'package:qahwety/screens/auth/signIn_screen.dart';
 import 'package:qahwety/screens/bn_screen.dart';
 import 'package:qahwety/screens/cart/delivery_info_screen.dart';
@@ -13,7 +14,7 @@ import 'package:qahwety/screens/splash_screen.dart';
 import 'package:qahwety/widget/appbar_profile.dart';
 import 'package:qahwety/widget/my_order.dart';
 
-import 'my_orders_screen.dart';
+import 'screens/profile/my_orders_screen.dart';
 
 void main() {
   runApp(
@@ -46,7 +47,7 @@ class MyApp extends StatelessWidget {
                   )
               ),
               // home: SplashScreen());
-          home: MyOrdersScreen());
+          home: MyWalletScreen());
         });
   }
 }

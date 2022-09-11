@@ -47,7 +47,7 @@ class _MyOrdersScreenState extends State<MyOrdersScreen>
         TabBar(
 
             controller: _tabController,
-            indicatorColor: Colors.blue,
+            indicatorColor: Color(0xFFC92026),
             labelColor: Colors.black,
             tabs: [
               Tab(
