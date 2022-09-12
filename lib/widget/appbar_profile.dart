@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:qahwety/screens/profile/my_orders_screen.dart';
+import 'package:qahwety/screens/profile/my_wallet_screen.dart';
 class AppBarProfile extends StatelessWidget {
   const AppBarProfile({Key? key}) : super(key: key);
 
@@ -39,7 +42,7 @@ class AppBarProfile extends StatelessWidget {
                   padding: EdgeInsets.only(left: 55.w,top: 16.h,bottom: 37.h),
                   child: ElevatedButton(
 
-                    onPressed: () {},
+                    onPressed: () =>Get.to(MyOrdersScreen()),
                     child: Row(
                       children: [
                         Image.asset('images/Orders.png'),
@@ -71,7 +74,7 @@ class AppBarProfile extends StatelessWidget {
                   padding: EdgeInsets.only(left:16.w,top: 16.h,bottom: 37.h),
                   child: ElevatedButton(
 
-                    onPressed: () {},
+                    onPressed: () =>Get.to(MyWalletScreen()),
                     child: Row(
                     children: [
                       Image.asset('images/img_home/Wallet.png',color: Color(0xFFDA6368),),

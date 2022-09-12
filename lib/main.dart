@@ -10,6 +10,7 @@ import 'package:qahwety/screens/cart/delivery_info_screen.dart';
 import 'package:qahwety/screens/home/cafeDetails_screen.dart';
 import 'package:qahwety/screens/cart/cart_screen.dart';
 import 'package:qahwety/screens/home/home_screen.dart';
+import 'package:qahwety/screens/profile/transfer_successfully_screen.dart';
 import 'package:qahwety/screens/splash_screen.dart';
 import 'package:qahwety/widget/appbar_profile.dart';
 import 'package:qahwety/widget/my_order.dart';
@@ -47,7 +48,7 @@ class MyApp extends StatelessWidget {
                   )
               ),
               // home: SplashScreen());
-          home: MyWalletScreen());
+          home: TransferSuccessfullyScrren());
         });
   }
 }

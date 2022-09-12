@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:qahwety/screens/profile/transfer_successfully_screen.dart';
 
 class MyWalletScreen extends StatefulWidget {
   const MyWalletScreen({Key? key}) : super(key: key);
@@ -201,7 +203,7 @@ class _MyWalletScreenState extends State<MyWalletScreen> with SingleTickerProvid
       ),
       bottomSheet: ElevatedButton(
 
-        onPressed: (){},
+        onPressed: ()=>Get.to(TransferSuccessfullyScrren()),
         child: Text('Transfer',style: TextStyle(
             color: Colors.white
         ),),
