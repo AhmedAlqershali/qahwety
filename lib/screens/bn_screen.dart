@@ -6,7 +6,7 @@ import 'package:qahwety/screens/settings/settings.dart';
 import '../models/bn_screen_item.dart';
 import 'cart/cart_screen.dart';
 import 'home/home_screen.dart';
-import 'home/menu_screen.dart';
+import 'menu/menu_screen.dart';
 
 class BnScreen extends StatefulWidget {
   const BnScreen({Key? key}) : super(key: key);
