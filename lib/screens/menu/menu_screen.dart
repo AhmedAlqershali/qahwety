@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+
+import 'giftvoucher_screen.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({Key? key}) : super(key: key);
@@ -27,7 +30,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
 
             GestureDetector(
-              onTap: (){},
+              onTap: ()=>Get.to(GiftVoucherScreen()),
               child: Container(
                 height: 65.h,
                 width: 375.w,

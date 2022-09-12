@@ -64,22 +64,15 @@ class _TransferSuccessfullyScrrenState extends State<TransferSuccessfullyScrren>
               ],
             ),
           ),
-          bottomSheet: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: GestureDetector(
-              onTap: (){Get.off(BnScreen()); },
-              child: Container(
-                height: 64,
-                width: double.infinity,
-                color: Color(0xFFC92026),
-                child: Center(
-                    child: Text(
-                      'Done',
-                      style: TextStyle(color: Colors.white, fontSize: 16),
-                    )),
-              ),
-            ),
-          ),
+          bottomSheet: ElevatedButton(
+            onPressed: () => Get.off(BnScreen()),
+            child: Text('Done'),
+            style: ElevatedButton.styleFrom(
+                minimumSize: Size(double.infinity.w, 50.h),
+                primary: Color(0xFFC92026)),
+          )
+
+
         )
     );
   }
