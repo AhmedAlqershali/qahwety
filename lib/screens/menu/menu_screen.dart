@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:qahwety/screens/menu/participating_coffees_screen.dart';
+import 'package:qahwety/screens/menu/promotedoffers_screen.dart';
 
+import 'aboutus_screen.dart';
+import 'contactus_screen.dart';
 import 'giftvoucher_screen.dart';
+import 'notifications_screen.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({Key? key}) : super(key: key);
@@ -55,7 +60,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             Divider(),
             GestureDetector(
-              onTap: (){},
+              onTap: ()=>Get.to(PromotedOffersScreen()),
               child: Container(
                 height: 65.h,
                 width: 375.w,
@@ -80,7 +85,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             Divider(),
             GestureDetector(
-              onTap: (){},
+              onTap: ()=>Get.to(ParticipatingCoffeesScreen()),
               child: Container(
                 height: 65.h,
                 width: 375.w,
@@ -105,7 +110,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             Divider(),
             GestureDetector(
-              onTap: (){},
+              onTap: ()=>Get.to(NotificationsScreen()),
               child: Container(
                 height: 65.h,
                 width: 375.w,
@@ -130,7 +135,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             Divider(),
             GestureDetector(
-              onTap: (){},
+              onTap: ()=>Get.to(ContactusUsScreen()),
               child: Container(
                 height: 65.h,
                 width: 375.w,
@@ -155,7 +160,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             Divider(),
             GestureDetector(
-              onTap: (){},
+              onTap: ()=>Get.to(AboutUsScreen()),
               child: Container(
                 height: 65.h,
                 width: 375.w,

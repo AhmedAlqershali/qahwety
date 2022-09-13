@@ -395,7 +395,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 30.w),
-                      child: Text('Cafe, Healthy Food, Breakfast',
+                      child: Text('Cafe, Healthy Food,',
                           style: TextStyle(
                               wordSpacing: 5,
                               color: Color(0xFF6F6C6C),
@@ -403,6 +403,17 @@ class _HomeScreenState extends State<HomeScreen> {
                           maxLines: 2,
                           softWrap: true),
                     ),
+                    Padding(
+                      padding: EdgeInsets.only(left: 15.w),
+                      child: Text(' Breakfast',
+                          style: TextStyle(
+                              wordSpacing: 5,
+                              color: Color(0xFF6F6C6C),
+                              fontSize: 13),
+                          maxLines: 2,
+                          softWrap: true),
+                    ),
+
                   ],
                 ),
               ),
