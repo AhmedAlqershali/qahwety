@@ -41,6 +41,7 @@ class MyApp extends StatelessWidget {
               debugShowCheckedModeBanner: false,
               useInheritedMediaQuery: true,
               darkTheme: ThemeData.dark(),
+
               theme: ThemeData(
                   colorScheme: ColorScheme.fromSwatch().copyWith(
 

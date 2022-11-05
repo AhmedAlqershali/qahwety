@@ -23,7 +23,7 @@ class ViewPage extends StatelessWidget {
         ),
         Container(
           width: 320.w,
-          height: 84.h,
+          height: 90.h,
           child: Column(
             children: [
               Text(

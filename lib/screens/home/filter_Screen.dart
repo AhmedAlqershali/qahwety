@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:qahwety/screens/bn_screen.dart';
 import 'package:qahwety/screens/home/home_screen.dart';
 import 'package:toggle_switch/toggle_switch.dart';
 
@@ -25,7 +26,7 @@ class _FilterScreenState extends State<FilterScreen> {
         child: Scaffold(
           appBar: AppBar(
             backgroundColor: Color(0xFFC92026),
-            leading: IconButton(onPressed: ()=>Get.off(HomeScreen()), icon: Image.asset('images/img_home/Close.png')),
+            leading: IconButton(onPressed: ()=>Get.off(BnScreen()), icon: Image.asset('images/img_home/Close.png')),
             title: Text('Filtter'),
             centerTitle: true,
             actions: [

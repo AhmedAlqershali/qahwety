@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:qahwety/screens/bn_screen.dart';
 
 import '../home/home_screen.dart';
 
@@ -39,7 +40,7 @@ class PayScreen extends StatelessWidget {
           bottomSheet: Padding(
             padding: const EdgeInsets.all(8.0),
             child: GestureDetector(
-              onTap: (){Get.off(HomeScreen()); },
+              onTap: (){Get.off(BnScreen()); },
               child: Container(
                 height: 64,
                 width: double.infinity,

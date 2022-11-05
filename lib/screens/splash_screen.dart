@@ -35,7 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Column(
               children: [
                 SizedBox(
-                  height: 100.h,
+                  height: 110.h,
                 ),
                 Image.asset('images/backgrund_splash1.png'),
                 SizedBox(
